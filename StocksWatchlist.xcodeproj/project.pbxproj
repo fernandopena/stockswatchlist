@@ -8,8 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7287BD2427C6B23A00A7F1BA /* StocksWatchlist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7287BD1B27C6B23A00A7F1BA /* StocksWatchlist.framework */; };
-		7287BD2927C6B23A00A7F1BA /* StocksWatchlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD2827C6B23A00A7F1BA /* StocksWatchlistTests.swift */; };
 		7287BD2A27C6B23A00A7F1BA /* StocksWatchlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 7287BD1E27C6B23A00A7F1BA /* StocksWatchlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7287BD3527C6B48B00A7F1BA /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD3427C6B48B00A7F1BA /* Stock.swift */; };
+		7287BD3727C6B49700A7F1BA /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD3627C6B49700A7F1BA /* Quote.swift */; };
+		7287BD3A27C6B52400A7F1BA /* WatchlistStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD3927C6B52400A7F1BA /* WatchlistStore.swift */; };
+		7287BD3C27C6B59C00A7F1BA /* QuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD3B27C6B59C00A7F1BA /* QuotesService.swift */; };
+		7287BD4027C6B74D00A7F1BA /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD3F27C6B74D00A7F1BA /* StockViewModel.swift */; };
+		7287BD4227C6B7C100A7F1BA /* WatchlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD4127C6B7C100A7F1BA /* WatchlistViewModel.swift */; };
+		7287BD4427C6B7DC00A7F1BA /* StockViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD4327C6B7DC00A7F1BA /* StockViewModelMapper.swift */; };
+		7287BD4727C6C4B900A7F1BA /* WatchlistViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD4627C6C4B900A7F1BA /* WatchlistViewModelTests.swift */; };
+		7287BD5027C6E97E00A7F1BA /* WatchlistStore+TestDoubles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD4F27C6E97E00A7F1BA /* WatchlistStore+TestDoubles.swift */; };
+		7287BD5227C6E9B400A7F1BA /* QuotesService+TestDoubles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BD5127C6E9B400A7F1BA /* QuotesService+TestDoubles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +35,16 @@
 		7287BD1B27C6B23A00A7F1BA /* StocksWatchlist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StocksWatchlist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7287BD1E27C6B23A00A7F1BA /* StocksWatchlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StocksWatchlist.h; sourceTree = "<group>"; };
 		7287BD2327C6B23A00A7F1BA /* StocksWatchlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StocksWatchlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7287BD2827C6B23A00A7F1BA /* StocksWatchlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksWatchlistTests.swift; sourceTree = "<group>"; };
+		7287BD3427C6B48B00A7F1BA /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		7287BD3627C6B49700A7F1BA /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		7287BD3927C6B52400A7F1BA /* WatchlistStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistStore.swift; sourceTree = "<group>"; };
+		7287BD3B27C6B59C00A7F1BA /* QuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesService.swift; sourceTree = "<group>"; };
+		7287BD3F27C6B74D00A7F1BA /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		7287BD4127C6B7C100A7F1BA /* WatchlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewModel.swift; sourceTree = "<group>"; };
+		7287BD4327C6B7DC00A7F1BA /* StockViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModelMapper.swift; sourceTree = "<group>"; };
+		7287BD4627C6C4B900A7F1BA /* WatchlistViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewModelTests.swift; sourceTree = "<group>"; };
+		7287BD4F27C6E97E00A7F1BA /* WatchlistStore+TestDoubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WatchlistStore+TestDoubles.swift"; sourceTree = "<group>"; };
+		7287BD5127C6E9B400A7F1BA /* QuotesService+TestDoubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuotesService+TestDoubles.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				7287BD1E27C6B23A00A7F1BA /* StocksWatchlist.h */,
+				7287BD4527C6C23F00A7F1BA /* ViewModel */,
+				7287BD3E27C6B63600A7F1BA /* Interface */,
+				7287BD3D27C6B62B00A7F1BA /* Model */,
 			);
 			path = StocksWatchlist;
 			sourceTree = "<group>";
@@ -77,9 +98,47 @@
 		7287BD2727C6B23A00A7F1BA /* StocksWatchlistTests */ = {
 			isa = PBXGroup;
 			children = (
-				7287BD2827C6B23A00A7F1BA /* StocksWatchlistTests.swift */,
+				7287BD4627C6C4B900A7F1BA /* WatchlistViewModelTests.swift */,
+				7287BD4827C6E8DD00A7F1BA /* Test Doubles */,
 			);
 			path = StocksWatchlistTests;
+			sourceTree = "<group>";
+		};
+		7287BD3D27C6B62B00A7F1BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7287BD3427C6B48B00A7F1BA /* Stock.swift */,
+				7287BD3627C6B49700A7F1BA /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7287BD3E27C6B63600A7F1BA /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7287BD3927C6B52400A7F1BA /* WatchlistStore.swift */,
+				7287BD3B27C6B59C00A7F1BA /* QuotesService.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		7287BD4527C6C23F00A7F1BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7287BD4127C6B7C100A7F1BA /* WatchlistViewModel.swift */,
+				7287BD3F27C6B74D00A7F1BA /* StockViewModel.swift */,
+				7287BD4327C6B7DC00A7F1BA /* StockViewModelMapper.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7287BD4827C6E8DD00A7F1BA /* Test Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				7287BD4F27C6E97E00A7F1BA /* WatchlistStore+TestDoubles.swift */,
+				7287BD5127C6E9B400A7F1BA /* QuotesService+TestDoubles.swift */,
+			);
+			path = "Test Doubles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +203,7 @@
 				TargetAttributes = {
 					7287BD1A27C6B23A00A7F1BA = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					7287BD2227C6B23A00A7F1BA = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -191,6 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7287BD3C27C6B59C00A7F1BA /* QuotesService.swift in Sources */,
+				7287BD4027C6B74D00A7F1BA /* StockViewModel.swift in Sources */,
+				7287BD4227C6B7C100A7F1BA /* WatchlistViewModel.swift in Sources */,
+				7287BD4427C6B7DC00A7F1BA /* StockViewModelMapper.swift in Sources */,
+				7287BD3A27C6B52400A7F1BA /* WatchlistStore.swift in Sources */,
+				7287BD3727C6B49700A7F1BA /* Quote.swift in Sources */,
+				7287BD3527C6B48B00A7F1BA /* Stock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7287BD2927C6B23A00A7F1BA /* StocksWatchlistTests.swift in Sources */,
+				7287BD4727C6C4B900A7F1BA /* WatchlistViewModelTests.swift in Sources */,
+				7287BD5227C6E9B400A7F1BA /* QuotesService+TestDoubles.swift in Sources */,
+				7287BD5027C6E97E00A7F1BA /* WatchlistStore+TestDoubles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,11 +334,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -323,10 +394,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -338,6 +411,7 @@
 		7287BD2E27C6B23A00A7F1BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -357,7 +431,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernandopena.StocksWatchlist;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +442,7 @@
 		7287BD2F27C6B23A00A7F1BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -385,6 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernandopena.StocksWatchlist;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -394,10 +472,12 @@
 		7287BD3127C6B23A00A7F1BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GD9QM9HB83;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernandopena.StocksWatchlistTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,10 +490,12 @@
 		7287BD3227C6B23A00A7F1BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GD9QM9HB83;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernandopena.StocksWatchlistTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
